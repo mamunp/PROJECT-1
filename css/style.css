@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.about-myself a{
+    text-decoration: none;
+    position: relative;
+}
+.about-myself button{
+    text-align: center;
+    position: absolute;
+    right: 4%;
+    background-color: rgb(158, 211, 241);
+    }
+    .about-myself button:hover{
+        background-color: rgb(100, 189, 240);
+        color:red
+    }
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("../images/banner.png")  ;
+    background-position: center;
+    background-size: cover;
+
+}
+.bg-dark{
+    font-weight: 600;
+   
+}
+.nav-item a:hover{
+    font-weight: 900;
+    color: rgb(221, 12, 12) !important;
+    background-color: rgb(255, 249, 249);
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    height: 80px;
+}
+.nav-css{
+    margin-left: 30px;
+}
+
+/* --------------about myself------------------ */
+
+.about-myself .row{
+    margin: 8% 3% 2%;
+    text-align: center;
+}
+.about-myself img{
+    border-radius: 26px;
+}
+.about-contant{
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    
+ }
+ .achivement h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8%;
+ }
+
+ .achivement .row{
+    margin-left: 30px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+   
+ }
+ .achivement-card{
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+
+ }
+ .achivement-card:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+ }
+
+ .progress{
+    margin: 10px 50px 10px;
+
+ }
+ .skill span{
+    margin-left: 8%;
+ }
+ .skill h1{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+ }
+ .skill .row{
+    margin-bottom: 7%;
+ }
